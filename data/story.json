@@ -2,25 +2,26 @@
   "parts": [
     {
       "id": 0,
-      "name": "Part 1",
-      "text": "This is part 1",
+      "name": "Discovery",
+      "image": "path.jpg",
+      "text": "One sunny day, while exploring a particularly dense part of the jungle, Aria stumbled upon a hidden path. Do you follow the path?",
       "options": [
         {
           "id": 0,
-          "text": "This takes you to part 2",
+          "text": "Yes, go into the unknown and explore",
           "target": 1
         },
         {
           "id": 1,
-          "text": "This takes you to part 3",
+          "text": "No, go back to the village",
           "target": 2
         }
       ]
     },
     {
       "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "name": "change",
+      "text": "As she walked, the sounds of the jungle faded away, replaced by the chirping of birds and the rustling of leaves. The path finally took its end. Aria deciding to take a quick rest, until suddenly a strange noise",
       "options": [
         {
           "id": 2,
