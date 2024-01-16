@@ -14,7 +14,20 @@
         {
           "id": 1,
           "text": "No, go back to the village",
-          "target": 2
+          "target": 7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "cycle",
+      "image": "village.jpg",
+      "text": "Aria walked back to the village safely and took a nap. Well rested she woke up and felt like going out for some fresh air.",
+      "options": [
+        {
+          "id": 0,
+          "text": "Go for a walk.",
+          "target": 0
         }
       ]
     },
@@ -26,31 +39,40 @@
       "options": [
         {
           "id": 2,
-          "text": "Go back to start",
-          "target": 0
+          "text": "Listen",
+          "target": 6
         },
         {
           "id": 2,
           "text": "Ignore the tree and continue",
-          "target": 3
+          "target": 5
         }
       ]
     },
     {
-      "id": 3,
-      "name": "iggnore test",
-      "image": "treeface.jpg",
-      "text": "As she walked, Aria noticed a group of people in the distance. They were dressed in strange clothing and were carrying weapons.",
+      "id": 5,
+      "name": "Capture",
+      "image": "hostile.jpg",
+      "text": "As she walked, Aria noticed a group of people in the distance. They were dressed in strange clothing and were carrying weapons. You got captured and kidnapped.",
       "options": [
         {
           "id": 2,
-          "text": "Go back to start",
+          "text": "Restart",
           "target": 0
-        },
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "realization",
+      "image": ".jpg",
+      "text": "Aria's heart raced with fear as she realized that she had stumbled upon a group of hunters. She turned to run back to the safety of the jungle, but it was too late. The hunters had seen her.",
+      "options": [
+      
         {
-          "id": 3,
-          "text": "Ignore the tree and continue",
-          "target": 0
+          "id": 2,
+          "text": "RUN",
+          "target": 3
         }
       ]
     },
