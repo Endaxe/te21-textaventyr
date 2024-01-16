@@ -21,11 +21,35 @@
     {
       "id": 1,
       "name": "change",
-      "text": "As she walked, the sounds of the jungle faded away, replaced by the chirping of birds and the rustling of leaves. The path finally took its end. Aria deciding to take a quick rest, until suddenly a strange noise",
+      "image": "treeface.jpg",
+      "text": "As she walked, the sounds of the jungle faded away, replaced by the chirping of birds and the rustling of leaves. The trees started looking thinner and the path finally took its end. Aria deciding to take a quick rest, until suddenly a strange noise. A tree with a face appeared.",
       "options": [
         {
           "id": 2,
           "text": "Go back to start",
+          "target": 0
+        },
+        {
+          "id": 2,
+          "text": "Ignore the tree and continue",
+          "target": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "iggnore test",
+      "image": "treeface.jpg",
+      "text": "As she walked, Aria noticed a group of people in the distance. They were dressed in strange clothing and were carrying weapons.",
+      "options": [
+        {
+          "id": 2,
+          "text": "Go back to start",
+          "target": 0
+        },
+        {
+          "id": 3,
+          "text": "Ignore the tree and continue",
           "target": 0
         }
       ]
