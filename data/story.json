@@ -20,9 +20,9 @@
     },
     {
       "id": 7,
-      "name": "cycle",
+      "name": "Cycle",
       "image": "village.jpg",
-      "text": "Aria walked back to the village safely and took a nap. Well rested she woke up and felt like going out for some fresh air.",
+      "text": "After a long nap, well rested Aria woke up and felt like going out for some fresh air.",
       "options": [
         {
           "id": 0,
@@ -33,18 +33,18 @@
     },
     {
       "id": 1,
-      "name": "change",
+      "name": "Change",
       "image": "treeface.jpg",
-      "text": "As she walked, the sounds of the jungle faded away, replaced by the chirping of birds and the rustling of leaves. The trees started looking thinner and the path finally took its end. Aria deciding to take a quick rest, until suddenly a strange noise. A tree with a face appeared.",
+      "text": "As she walked, the sounds of the jungle faded away, replaced by the chirping of birds and the rustling of leaves. The trees started looking thinner and the path finally took its end. Aria deciding to take a quick rest, until suddenly a strange noise. A tree with a face appeared. Telling you to change way.",
       "options": [
         {
           "id": 2,
-          "text": "Listen",
+          "text": "Listen and change",
           "target": 6
         },
         {
           "id": 2,
-          "text": "Ignore the tree and continue",
+          "text": "Ignore and continue",
           "target": 5
         }
       ]
@@ -58,14 +58,14 @@
         {
           "id": 2,
           "text": "Restart",
-          "target": 0
+          "target": 7
         }
       ]
     },
     {
       "id": 6,
-      "name": "realization",
-      "image": ".jpg",
+      "name": "Realization",
+      "image": "hunter.jpg",
       "text": "Aria's heart raced with fear as she realized that she had stumbled upon a group of hunters. She turned to run back to the safety of the jungle, but it was too late. The hunters had seen her.",
       "options": [
       

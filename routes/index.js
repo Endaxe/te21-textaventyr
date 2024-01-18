@@ -21,7 +21,7 @@ router.get('/story/:id', function (req, res) {
 router.post('/username', function (req, res) {
   req.session.username = req.body.username
   console.log(req.session.username)
-  res.redirect('/story')
+  res.redirect('/story/0')
 })
 
 module.exports = router
