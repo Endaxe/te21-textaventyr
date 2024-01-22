@@ -6,6 +6,10 @@ body {
   background-color: #000f03;
 }
 
+.option {
+background-color: #ffffff;
+}
+
 img {
   max-width: 100%;
   border: 4px solid rgb(0, 53, 10);
