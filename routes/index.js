@@ -24,4 +24,18 @@ router.post('/username', function (req, res) {
   res.redirect('/story/0')
 })
 
+const pool = require('../db')
+
+router.get('/dbtest', async (req, res) => {
+  try {
+    const [parts] = await pool.promise().query('SELECT * FROM endo_part')
+    res.json({ parts })
+  } catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+
+  }
+})
+
+
 module.exports = router
