@@ -35,7 +35,12 @@ router.get('/dbtest/:id', async (req, res) => {
     const [options] = await pool
     .promise()
     .query(`SELECT * FROM endo_option WHERE id = ${id}`)
-    res.json({ parts, options })
+    const part = { ...parts[0], options }
+    res.render(`part.njk`, {
+      username: req.session.username,
+      title: part.name,
+      part,
+    })
   } catch (error) {
     console.log(error)
     res.sendStatus(500)
